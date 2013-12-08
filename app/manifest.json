@@ -19,7 +19,7 @@
                 "https://www.google.co.uk/*"
             ],
             "js": [
-                "scripts/rolling.js"
+                "scripts/barrelRoll.js"
             ]
         }
     ]
