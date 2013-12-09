@@ -1,6 +1,6 @@
 {
     "name": "__MSG_appName__",
-    "version": "0.0.6",
+    "version": "0.0.11",
     "manifest_version": 2,
     "description": "__MSG_appDescription__",
     "icons": {
@@ -16,11 +16,16 @@
     "content_scripts": [
         {
             "matches": [
-                "https://www.google.co.uk/*"
+                "http://*/*",
+                "https://*/*"
             ],
             "js": [
+                "bower_components/jquery/jquery.min.js",
                 "scripts/barrelRoll.js"
             ]
         }
+    ],
+    "web_accessible_resources": [
+        "styles/main.css"
     ]
 }
