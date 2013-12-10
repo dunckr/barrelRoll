@@ -10,7 +10,7 @@
     "default_locale": "en",
     "background": {
         "scripts": [
-            "scripts/background.js"
+            "scripts/bg.js"
         ]
     },
     "content_scripts": [
@@ -27,5 +27,6 @@
     ],
     "web_accessible_resources": [
         "styles/main.css"
-    ]
+    ],
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
 }
