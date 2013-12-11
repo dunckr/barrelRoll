@@ -1,10 +1,12 @@
 # Barrel Roll
 
+Take your browser for a spin
 
+![Getting dizzy in Chrome](http://i.imgur.com/ldeFuDz.gif "They be spinning")
 
 ## Install
 
-[](link)
+[From the Webstore](https://chrome.google.com/webstore/detail/jlnmjndpnhemdgiagelkalboclglfndj)
 
 #### NPM
 
