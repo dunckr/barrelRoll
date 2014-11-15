@@ -5,7 +5,6 @@
     var maxTimeRange = 1000*60*10;
 
     setInterval(function() {
-      console.log('trying...');
       injectCSS();
     }, randomise(minTimeRange,maxTimeRange));
   });
