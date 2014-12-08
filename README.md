@@ -10,7 +10,7 @@ Take your browser for a spin
 
 #### NPM
 
-`npm install
+`npm install`
 
 #### Bower
 
